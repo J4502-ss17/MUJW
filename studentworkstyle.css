@@ -65,6 +65,10 @@ td {
 
 table, td, tr {
    border: 1px solid black;
+   font-family: "Lora", Georgia, "Times New Roman", serif;
+   font-weight: 400;
+   text-align: center;
+   color:#FAF205;
 }
 
 
