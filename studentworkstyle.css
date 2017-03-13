@@ -63,6 +63,10 @@ td {
     text-align: center;
 }
 
+table, td, tr {
+   border: 1px solid black;
+}
+
 
 #footer {
     border-top: 1px solid #ccc;
