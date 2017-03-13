@@ -65,10 +65,18 @@ td {
 
 table, td, tr {
    border: 1px solid black;
-   font-family: "Lora", Georgia, "Times New Roman", serif;
-   font-weight: 400;
-   text-align: center;
-   color:#FAF205;
+   a:link, #nav a:visited {
+     display: block;
+     color:#ffffff;
+     background-color: #b2b2b2;
+     font-weight: bold;
+     text-decoration: none;
+     text-align: center;
+     text-decoration: inherit;
+     padding: 8px;
+     margin: 4px;
+   font-family: 'Libre Franklin', sans-serif;
+   }
 }
 
 
