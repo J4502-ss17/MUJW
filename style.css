@@ -5,14 +5,12 @@
 
 
 header{
-    background: #ffffff;
-    background-image: url(EP.jpg);
-    background-size: contain;
+    background: #000000;
+    background-size:cover;
     background-repeat: no-repeat;
     padding: 1rem 0;
     margin: 0;
     /*width: 120vw;*/
-    height: 120vh;
 }
 
 body {
@@ -25,20 +23,21 @@ body {
     margin: 0 auto;
 }
 
-h1, h2, h3 {
+h1, h2{
     font-family: "Lora", Georgia, "Times New Roman", serif;
     font-weight: 400;
     text-align: center;
+    color:#FAF205;
     padding: 10px;
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-top: 0.5em;
 }
 
-h2, h3 {
-    font-size: 1.5em;
+h2{
+    font-size: 1em;
     margin-bottom: 0.8em;
 }
 
@@ -48,6 +47,12 @@ p {
     font-size: 1em;
     margin-bottom: 0.8em;
     text-align: center;
+}
+
+h3,h4{
+  font-size: 1em;
+  margin-top: 0.5em;
+  text-align: center;
 }
 
 aside p {
@@ -66,25 +71,6 @@ aside p {
     font-size: 0.7em;
     color: #aaa;
     margin-bottom: 0;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li a {
-    font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
-    text-decoration: none;
-    margin-bottom: 1em;
 }
 
 #bar {
@@ -123,18 +109,6 @@ img {
     width: 100%;
 }
 
-/*============================================
-Full screen background example specific styles
-============================================*/
-
-@media screen and (min-width: 600px) {
-
-    #container {
-        width: 80%;
-    }
-}
-
-@media screen and (min-width: 800px) {
 
     #container {
         width: 70%;
@@ -146,25 +120,25 @@ Full screen background example specific styles
         margin-left: 5em;
     }
 
-    nav ul {
-        justify-content: flex-end;
-    }
-
-    nav ul li {
-        margin-left: 1.8em;
-    }
-
+#nav{
+  text-decoration: none;
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
     #nav a:link, #nav a:visited {
       display: block;
       color:#ffffff;
-      background-color: #f08080;
+      background-color: #b2b2b2;
       font-weight: bold;
+      text-decoration: none;
       text-align: center;
       text-decoration: inherit;
-      padding: 8px;
+      padding: 12px;
+      margin: 4px;
     font-family: 'Libre Franklin', sans-serif;
     }
 
      #nav a:hover, #nav a:active {
-      background-color: #b2b2b2;
+      background-color: #4D4F4F;
     }
