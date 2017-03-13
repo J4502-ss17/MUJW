@@ -3,11 +3,13 @@
   box-sizing: border-box;
 }
 
+
 header{
     background: #bd5532;
     background-image: url(EP.jpg);
-    background-size: cover;
-    padding: 2rem 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 1rem 0;
     margin: 0;
     /*width: 100vw;*/
     height: 100vh;
@@ -38,10 +40,12 @@ h2, h3 {
     margin-bottom: 0.8em;
 }
 
+
 p {
     font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
     font-size: 1em;
     margin-bottom: 0.8em;
+    text-align: center;
 }
 
 aside p {
@@ -147,4 +151,18 @@ Full screen background example specific styles
     nav ul li {
         margin-left: 1.8em;
     }
-}
+
+    #nav a:link, #nav a:visited {
+      display: block;
+      color:#ffffff;
+      background-color: #f08080;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: inherit;
+      padding: 10px;
+    font-family: 'Libre Franklin', sans-serif;
+    }
+
+     #nav a:hover, #nav a:active {
+      background-color: #b2b2b2;
+    }
