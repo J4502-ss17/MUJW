@@ -41,84 +41,28 @@ h2{
     margin-bottom: 0.8em;
 }
 
-
 p {
     font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
     font-size: 1em;
     margin-bottom: 0.8em;
-    text-align: center;
+    text-align: left;
 }
 
 h3,h4{
-  font-size: 1em;
+  font-size: 1.5em;
   margin-top: 0.5em;
   text-align: center;
 }
 
-aside p {
-    font-size: 0.8em;
-    line-height: 1.2em;
-}
-
-.caption {
-    font-size: 0.7em;
-    text-align: right;
-    margin-top: 0;
-}
-
-.dateline {
-    font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
-    font-size: 0.7em;
-    color: #aaa;
-    margin-bottom: 0;
-}
-
-#bar {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    margin-bottom: 0.7em;
-    border-bottom: 1px solid #ccc;
-}
-
-.logo {
-    border-radius: 5%;
-    margin-left: 0.5em;
-    height: 3em;
-    width: 3em;
-}
 
 
-footer {
+
+#footer {
     border-top: 1px solid #ccc;
+    font-size: 0.5em;
+    text-align: center;
 }
 
-footer p {
-    font-size: 0.8em;
-}
-
-a {
-    color: #000;
-}
-
-a:hover {
-    color: #bd5532;
-}
-
-img {
-    width: 100%;
-}
-
-
-    #container {
-        width: 70%;
-        max-width: 60em;
-    }
-
-    article {
-        max-width: 40em;
-        margin-left: 5em;
-    }
 
 #nav{
   text-decoration: none;
@@ -134,7 +78,7 @@ img {
       text-decoration: none;
       text-align: center;
       text-decoration: inherit;
-      padding: 12px;
+      padding: 8px;
       margin: 4px;
     font-family: 'Libre Franklin', sans-serif;
     }
