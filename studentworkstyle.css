@@ -96,11 +96,7 @@ font-family: 'Libre Franklin', sans-serif;
 }
 
 
-#footer {
-    border-top: 1px solid #ccc;
-    font-size: 0.5em;
-    text-align: center;
-}
+
 
 
 #nav{
@@ -124,4 +120,11 @@ font-family: 'Libre Franklin', sans-serif;
 
      #nav a:hover, #nav a:active {
       background-color: #4D4F4F;
+    }
+
+
+    #footer {
+        border-top: 1px solid #ccc;
+        font-size: 0.5em;
+        text-align: center;
     }
