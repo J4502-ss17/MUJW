@@ -88,8 +88,11 @@ font-family: 'Libre Franklin', sans-serif;
 
 
 
+
+
 #storycat a:hover, #storycat a:active {
  background-color: #FAF205;
+ color:black;
 }
 
 
