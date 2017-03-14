@@ -54,6 +54,15 @@ h3,h4{
   text-align: center;
 }
 
+h5{
+  text-align: center;
+}
+
+img{
+  margin-left: 7em;
+  margin-bottom: 1em;
+}
+
 table {
     width: 100%;
 }
@@ -86,24 +95,16 @@ margin: 4px;
 font-family: 'Libre Franklin', sans-serif;
 }
 
-
-
-
-
 #storycat a:hover, #storycat a:active {
  background-color: #FAF205;
  color:black;
 }
-
-
-
 
 #footer {
     border-top: 1px solid #ccc;
     font-size: 0.5em;
     text-align: center;
 }
-
 
 #nav{
   text-decoration: none;
