@@ -54,6 +54,47 @@ h3,h4{
   text-align: center;
 }
 
+table {
+    width: 100%;
+}
+
+td {
+    height: 50px;
+    text-align: center;
+}
+
+table, td, tr {
+   border: 1px solid black;
+   color:#ffffff;
+   background-color: #4D4F4F;
+   font-weight: bold;
+   text-decoration: none;
+   text-align: center;
+   text-decoration: inherit;
+   font-family: 'Libre Franklin', sans-serif;
+   }
+
+#storycat a:link, #storycat a:visited{
+display: block;
+color:#ffffff;
+font-weight: bold;
+text-decoration: none;
+text-align: center;
+text-decoration: inherit;
+padding: 8px;
+margin: 4px;
+font-family: 'Libre Franklin', sans-serif;
+}
+
+
+
+
+
+#storycat a:hover, #storycat a:active {
+ background-color: #FAF205;
+ color:black;
+}
+
 
 
 
