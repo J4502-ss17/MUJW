@@ -59,7 +59,7 @@ table {
 }
 
 td {
-    height: 100px;
+    height: 50px;
     text-align: center;
 }
 
@@ -76,7 +76,7 @@ table, td, tr {
 
 #storycat a:link, #storycat a:visited {
   display: block;
-  color:#ffffff;
+  color:#black;
   font-weight: bold;
   text-decoration: none;
   text-align: center;
