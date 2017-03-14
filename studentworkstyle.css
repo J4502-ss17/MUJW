@@ -74,7 +74,21 @@ table, td, tr {
    font-family: 'Libre Franklin', sans-serif;
    }
 
-#storycat a:link, #storycat a:visited {
+#storycat a:link{
+display: block;
+color:#black;
+font-weight: bold;
+text-decoration: none;
+text-align: center;
+text-decoration: inherit;
+padding: 8px;
+margin: 4px;
+font-family: 'Libre Franklin', sans-serif;
+}
+
+
+
+#storycat a:visited {
   display: block;
   color:#ffffff;
   font-weight: bold;
