@@ -13,9 +13,10 @@ header{
 }
 
 .menu-trigger {
-    order: 1;
+    order:1
     font-size: 1.8em;
-    width: 2em;
+    width: 4em;
+    color: #025C7A;
   }
 
   .navigation{
@@ -49,7 +50,11 @@ font-family: 'Antic Slab', serif;
 }
 
 .navigation a:hover, .navigation a:active {
-  background-color: #FFE098;
+  background-color: #F1B82D;
+}
+
+.picture{
+  object-position: center;
 }
 
 body {
@@ -62,12 +67,21 @@ body {
     margin: 0 auto;
 }
 
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+header, article, aside,footer {
+  flex: 1 100%;
+  padding: 10px;
+}
 h1, h2{
     font-family: "Lora", Georgia, "Times New Roman", serif;
     font-weight: 800;
     text-align: center;
     color:#025C7A;
     padding: 10px;
+    margin:auto;
 }
 
 h1 {
@@ -79,6 +93,14 @@ h2{
     font-size: 1.5em;
     color: #ffffff;
     margin-bottom: 0.8em;
+}
+
+.aside-1{
+  background-color: #F1B82D;
+}
+
+.aside-3{
+  background-color: #783341;
 }
 
 p {
@@ -100,6 +122,7 @@ h5{
 
 img{
   margin-bottom: 1em;
+  order:2
 }
 
 table {
@@ -121,6 +144,54 @@ table, td, tr {
    text-decoration: inherit;
    font-family: 'Libre Franklin', sans-serif;
    }
+
+   @media screen and (min-width: 500px){
+
+     .menu-trigger{
+       display: block;
+     }
+
+     #container {
+        width: 100%;
+    }
+
+    .aside-1{
+      display: block;
+    }
+
+   }
+
+@media (min-width:700px) {
+  .navigation {
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        display: flex;
+        margin: 1em;
+      }
+
+        .navigation a {
+      border: none;
+  }
+
+  .menu-trigger {
+        display: none;
+        order: 1;
+    }
+
+    nav ul {
+display: flex;}
+
+.aside-1{
+  order:2;
+}
+.aside-2{
+  order:3;
+}
+.aside-3{
+  order:4;
+}
+
+}
 
 #storycat a:link, #storycat a:visited{
 display: block;
