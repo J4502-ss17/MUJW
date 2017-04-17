@@ -4,22 +4,22 @@
 }
 
 header{
-    background-image: url(jesse.jpg);
+    background-image: url(img/jesse.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     padding: 1rem 0;
     margin: 0;
-    /*width: 120vw;*/
 }
 
 .menu-trigger {
-    order:1
+    order:1;
     font-size: 1.8em;
     width: 4em;
     color: #025C7A;
   }
 
-  .navigation{
+.navigation{
+  font-family: 'Antic Slab', serif;
   margin:0;
   list-style-type: none;
   display: none;
@@ -30,7 +30,6 @@ header{
   text-align: center;
   text-decoration: none;
   padding: 10px;
-  font-family: 'Antic Slab', serif;
 }
 
 .navigation li {
@@ -40,13 +39,13 @@ header{
 }
 
 .navigation a{
+  font-family: 'Antic Slab', serif;
   display: block;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
   padding: 10px;
   color: white;
-font-family: 'Antic Slab', serif;
 }
 
 .navigation a:hover, .navigation a:active {
@@ -130,7 +129,6 @@ h5{
   text-align: center;
   font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
-
 }
 
 img{
@@ -158,7 +156,7 @@ table, td, tr {
    font-family: 'Libre Franklin', sans-serif;
    }
 
-   @media screen and (min-width: 500px){
+@media screen and (min-width: 500px){
 
      .menu-trigger{
        display: block;
@@ -182,7 +180,7 @@ table, td, tr {
         margin: 1em;
       }
 
-        .navigation a {
+  .navigation a {
       border: none;
   }
 
@@ -192,12 +190,12 @@ table, td, tr {
     }
 
     nav ul {
-display: flex;}
+      display: flex;
+    }
 
-.aside-1{
-  order:2;
-}
-
+    .aside-1{
+      order:2;
+    }
 
 }
 
@@ -231,7 +229,8 @@ font-family: 'Libre Franklin', sans-serif;
   margin:0;
   padding:0;
 }
-    #nav a:link, #nav a:visited {
+
+#nav a:link, #nav a:visited {
       display: block;
       color:#ffffff;
       background-color: #b2b2b2;
@@ -244,11 +243,11 @@ font-family: 'Libre Franklin', sans-serif;
     font-family: 'Libre Franklin', sans-serif;
     }
 
-     #nav a:hover, #nav a:active {
+#nav a:hover, #nav a:active {
       background-color: #4D4F4F;
     }
 
-    form {
+form {
     margin: 0 auto;
     padding: 4em;
     border: 1px solid #CCC;
@@ -256,7 +255,7 @@ font-family: 'Libre Franklin', sans-serif;
     width: 90%;
   }
 
-  form div + div {
+form div + div {
     margin-top: 1em;
   }
 
