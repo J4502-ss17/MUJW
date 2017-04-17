@@ -9,10 +9,10 @@ header{
     background-repeat: no-repeat;
     padding: 1rem 0;
     margin: 0;
+    width: 100%;
 }
 
 .menu-trigger {
-    order:1;
     font-size: 1.8em;
     width: 4em;
     color: #025C7A;
@@ -71,6 +71,14 @@ body {
     flex-flow: row wrap;
 }
 
+#bar {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 0.7em;
+    border-bottom: 1px solid #ccc;
+}
+
 h1, h2{
     font-family:"Lora", Georgia, "Times New Roman", serif;
     font-weight: 300;
@@ -91,13 +99,16 @@ h2{
     margin-bottom: 0.8em;
 }
 
-.title{
+article{
   background-color: #F1B82D;
   width: 100%;
 }
 
 .aside-1{
-  background-color: #783341;
+  background-color: #ffffff;
+  text-decoration: none;
+  flex-flow: row;
+  padding:2;
 }
 
 .aside-2{
@@ -105,10 +116,20 @@ h2{
   font-family: 'Antic Slab', serif;
   color: #ccc;
   font-weight: bold;
+  font-size: 1.5em;
   text-align: center;
   text-decoration: none;
   flex-flow: row;
+  font-weight: bold;
   width: 100%;
+}
+
+.categories li{
+  margin:0;
+  padding:0;
+  border-bottom: 1px;
+  font-size: 1em;
+  text-decoration: none;
 }
 
 p {
@@ -133,7 +154,6 @@ h5{
 
 img{
   margin-bottom: 1em;
-  order:2
 }
 
 table {
@@ -158,21 +178,30 @@ table, td, tr {
 
 @media screen and (min-width: 500px){
 
+
+
      .menu-trigger{
        display: block;
+       order:1;
      }
 
      #container {
-        width: 100%;
+        width: 80%;
     }
 
     .aside-1{
       display: block;
+      order:2;
+    }
+
+    .aside-2{
+      order:3;
     }
 
    }
 
 @media (min-width:700px) {
+
   .navigation {
         flex-flow: row wrap;
         justify-content: flex-end;
@@ -189,14 +218,41 @@ table, td, tr {
         order: 1;
     }
 
+.title{
+  width: 40%;
+}
+
+    .wrapper{
+      display: flex;
+      flex-flow: row wrap;
+    }
+
     nav ul {
       display: flex;
     }
 
+    aside {
+      flex: 0.5 auto;
+  }
+
+  article {
+                  width: 80%;
+                  height:85%;
+                  float: left;
+              }
+
     .aside-1{
       order:2;
+      width:20%;
+      height:60%;
+      float: left;
+      margin:0;
+      padding:0;
     }
 
+    footer{
+      order:4;
+}
 }
 
 #storycat a:link, #storycat a:visited{
@@ -220,7 +276,7 @@ font-family: 'Libre Franklin', sans-serif;
     border-top: 1px solid #ccc;
     font-size: 0.5em;
     text-align: center;
-    order:3;
+    order:4;
 }
 
 #nav{
