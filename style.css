@@ -97,8 +97,7 @@ article{
 
 .card-container {
     display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
+    flex-flow: column;
 }
 
 .card {
@@ -113,8 +112,8 @@ article{
     padding: 10px;
 }
 
-img{
-  width: 20%;
+.card img {
+  width: 100%;
   height: auto;
 }
 
