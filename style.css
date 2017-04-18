@@ -162,6 +162,7 @@ article{
 
 .aside-1{
   background-color: #ffffff;
+  width: 100%;
   text-decoration: none;
   flex-flow: row;
   padding:2;
@@ -364,8 +365,8 @@ font-family: 'Libre Franklin', sans-serif;
       text-decoration: none;
       text-align: center;
       text-decoration: inherit;
-      padding: 8px;
-      margin: 4px;
+      padding: 15px;
+      margin: 20px;
     font-family: 'Libre Franklin', sans-serif;
     }
 
@@ -418,6 +419,10 @@ form div + div {
     margin-bottom: 0.5em;
   }
 
+  .article-1{
+  width:100%;
+  background-color:#ffffff;
+}
 
   /* Slideshow container */
   .slideshow-container {
@@ -509,3 +514,114 @@ form div + div {
     from {opacity: .4}
     to {opacity: 1}
   }
+
+  /*
+slideshow end here*/
+
+/*mediaquery here*/
+@media (min-width:800px) {
+
+  .navigation {
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        display: flex;
+        margin: 1em;
+      }
+
+  .navigation a {
+      border: none;
+  }
+
+  .menu-trigger {
+        display: none;
+        order: 1;
+    }
+
+    .title{
+      width: 40%;
+  }
+
+    nav ul {
+      display: flex;
+    }
+
+
+  article {
+            width: 70%;
+            float: left;
+              }
+
+    .aside-1{
+        background-color: #ccc;
+        width:100%;
+        clear:both;
+              }
+
+    .navigation2{
+      float:right
+      width:auto;
+      height:auto;
+    }
+
+    #footer{
+      clear:both;
+}
+
+}
+@media (min-width:930px) {
+
+.navigation {
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        display: flex;
+        margin: 1em;
+      }
+
+  .navigation a {
+      border: none;
+  }
+
+  .menu-trigger {
+        display: none;
+        order: 1;
+    }
+
+    .title{
+      width: 40%;
+  }
+
+    nav ul {
+      display: flex;
+    }
+
+    aside {
+      flex: 0.5 auto;
+    }
+
+  article {
+            width: 55%;
+            height:90%;
+            float: left;
+            order:1;
+              }
+
+    .aside-1{
+      order:3;
+      height:30%;
+      float: left;
+      margin:0;
+      padding:0;
+    }
+
+    .navigation2{
+      order:2;
+      width:45%;
+      float:right;
+    }
+
+    #footer{
+      clear:both;
+}
+}
+
+/*ends mediaquery*/
