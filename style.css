@@ -151,6 +151,10 @@ article{
 }
 /*ends staff page css*/
 
+.staff-name {
+  font-weight: bold; 
+}
+
 .aside-1{
   background-color: #ccc;
   width:100%;
