@@ -4,9 +4,12 @@
 }
 
 header{
+    background-image: url(img/jesse.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
     padding: 1rem 0;
     margin: 0;
-    width:100%;
+    width: 100%;
 }
 
 .menu-trigger {
@@ -15,7 +18,6 @@ header{
     color: #025C7A;
   }
 
-/*upper navigation style*/
 .navigation{
   font-family: 'Antic Slab', serif;
   margin:0;
@@ -49,44 +51,6 @@ header{
 .navigation a:hover, .navigation a:active {
   background-color: #F1B82D;
 }
-/*ends here*/
-
-/*bottom navigation2 style*/
-.navigation2{
-  font-family: 'Antic Slab', serif;
-  margin:0;
-  list-style-type: none;
-  display: block;
-  flex-flow: column;
-  color:#ffffff;
-  background-color: #025C7A;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  padding: 10px;
-}
-
-.navigation2 li {
-  margin:0;
-  padding:0;
-  border-bottom: 1px solid #ccc;
-}
-
-.navigation2 a{
-  font-family: 'Antic Slab', serif;
-  display: block;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  padding: 10px;
-  color: white;
-}
-
-.navigation2 a:hover, .navigation2 a:active {
-  background-color: #F1B82D;
-}
-/*end here*/
-
 
 body {
     line-height: 1.45em;
@@ -101,6 +65,11 @@ body {
     border-bottom: 1px solid #ccc;
 }
 
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+
 h1, h2{
     font-family:"Lora", Georgia, "Times New Roman", serif;
     font-weight: 300;
@@ -108,7 +77,6 @@ h1, h2{
     color:#025C7A;
     padding: 10px;
     margin:auto;
-    line-height: normal;
 }
 
 h1 {
@@ -118,19 +86,18 @@ h1 {
 
 h2{
     font-size: 1.5em;
+    color: #ffffff;
     margin-bottom: 0.8em;
 }
 
 article{
   background-color: #F1B82D;
-  padding:10px;
-
+  width: 100%;
 }
 
-/*staff page css*/
 .card-container {
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
 }
 
 .card {
@@ -143,33 +110,44 @@ article{
 
 .card p {
     padding: 10px;
+    margin-bottom: 0.5em;
 }
 
 .card img {
   width: 100%;
   height: auto;
 }
-/*ends staff page css*/
 
 .staff-name {
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 .aside-1{
-  background-color: #ccc;
-  width:100%;
+  background-color: #ffffff;
+  text-decoration: none;
+  flex-flow: row;
+  padding:2;
 }
 
 .aside-2{
-  background-color: #025C7A;
+  background-color: #ffffff;
   font-family: 'Antic Slab', serif;
   color: #000;
   font-weight: bold;
   font-size: 2em;
   text-align: center;
   text-decoration: none;
+  flex-flow: row;
   font-weight: bold;
   width: 100%;
+}
+
+.categories li{
+  margin:0;
+  padding:0;
+  border-bottom: 1px;
+  font-size: 1em;
+  text-decoration: none;
 }
 
 p {
@@ -216,6 +194,98 @@ table, td, tr {
    font-family: 'Libre Franklin', sans-serif;
    }
 
+@media screen and (min-width: 600px){
+
+
+     .menu-trigger{
+       display: block;
+       order:1;
+     }
+
+     #container {
+        width: 80%;
+    }
+
+    .card-container{
+      flex-flow: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .card{
+      width: 45%;
+    }
+
+    .aside-1{
+      display: block;
+      order:2;
+    }
+
+    .aside-2{
+      order:3;
+    }
+
+   }
+
+@media (min-width:1000px) {
+
+  .navigation {
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        display: flex;
+        margin: 1em;
+      }
+
+  .navigation a {
+      border: none;
+  }
+
+  .menu-trigger {
+        display: none;
+        order: 1;
+    }
+
+    .title{
+      width: 40%;
+  }
+
+    .wrapper{
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    .card{
+      width: 30%;
+    }
+
+    nav ul {
+      display: flex;
+    }
+
+    aside {
+      flex: 0.5 auto;
+    }
+
+  article {
+            width: 70%;
+            height:85%;
+            float: left;
+            order:1;
+              }
+
+    .aside-1{
+      order:2;
+      width:25%;
+      height:20%;
+      float: right;
+      margin:0;
+      padding:0;
+    }
+
+    footer{
+      order:4;
+}
+}
 
 #storycat a:link, #storycat a:visited{
 display: block;
@@ -224,8 +294,8 @@ font-weight: bold;
 text-decoration: none;
 text-align: center;
 text-decoration: inherit;
-padding: 15px;
-margin: 20px;
+padding: 8px;
+margin: 4px;
 font-family: 'Libre Franklin', sans-serif;
 }
 
@@ -310,12 +380,8 @@ form div + div {
     margin-bottom: 0.5em;
   }
 
- .article-1{
-   width:100%;
-   background-color:#ffffff;
- }
 
-/* Slideshow container */
+  /* Slideshow container */
   .slideshow-container {
     max-width: 1000px;
     position: relative;
@@ -405,113 +471,3 @@ form div + div {
     from {opacity: .4}
     to {opacity: 1}
   }
-/*
-slideshow end here*/
-
-/*mediaquery here*/
-@media (min-width:800px) {
-
-  .navigation {
-        flex-flow: row wrap;
-        justify-content: flex-end;
-        display: flex;
-        margin: 1em;
-      }
-
-  .navigation a {
-      border: none;
-  }
-
-  .menu-trigger {
-        display: none;
-        order: 1;
-    }
-
-    .title{
-      width: 40%;
-  }
-
-    nav ul {
-      display: flex;
-    }
-
-
-  article {
-            width: 70%;
-            float: left;
-              }
-
-    .aside-1{
-        background-color: #ccc;
-        width:100%;
-        clear:both;
-              }
-
-    .navigation2{
-      float:right
-      width:auto;
-      height:auto;
-    }
-
-    #footer{
-      clear:both;
-}
-
-}
-@media (min-width:930px) {
-
-.navigation {
-        flex-flow: row wrap;
-        justify-content: flex-end;
-        display: flex;
-        margin: 1em;
-      }
-
-  .navigation a {
-      border: none;
-  }
-
-  .menu-trigger {
-        display: none;
-        order: 1;
-    }
-
-    .title{
-      width: 40%;
-  }
-
-    nav ul {
-      display: flex;
-    }
-
-    aside {
-      flex: 0.5 auto;
-    }
-
-  article {
-            width: 55%;
-            height:90%;
-            float: left;
-            order:1;
-              }
-
-    .aside-1{
-      order:3;
-      height:30%;
-      float: left;
-      margin:0;
-      padding:0;
-    }
-
-    .navigation2{
-      order:2;
-      width:45%;
-      float:right;
-    }
-
-    #footer{
-      clear:both;
-}
-}
-
-/*ends mediaquery*/
