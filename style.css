@@ -201,6 +201,16 @@ table, td, tr {
         width: 80%;
     }
 
+    .card-container{
+      flex-flow: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .card{
+      width: 45%;
+    }
+
     .aside-1{
       display: block;
       order:2;
@@ -237,6 +247,10 @@ table, td, tr {
     .wrapper{
       display: flex;
       flex-flow: row wrap;
+    }
+
+    .card{
+      width: 30%;
     }
 
     nav ul {
