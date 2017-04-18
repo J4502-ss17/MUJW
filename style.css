@@ -4,9 +4,6 @@
 }
 
 header{
-    background-image: url(img/jesse.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
     padding: 1rem 0;
     margin: 0;
     width:100%;
@@ -116,6 +113,7 @@ h1, h2{
     color:#025C7A;
     padding: 10px;
     margin:auto;
+    line-height: normal;
 }
 
 h1 {
@@ -125,7 +123,6 @@ h1 {
 
 h2{
     font-size: 1.5em;
-    color: #ffffff;
     margin-bottom: 0.8em;
 }
 
@@ -221,148 +218,6 @@ table, td, tr {
    text-decoration: inherit;
    font-family: 'Libre Franklin', sans-serif;
    }
-
-
-/*mediaquery here*/
-@media screen and (min-width: 500px){
-
-
-     .menu-trigger{
-       display: block;
-       order:1;
-     }
-
-     #container {
-        width: 80%;
-    }
-
-    .card-container{
-      flex-flow: row;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-
-    .aside-1{
-      display: block;
-      order:2;
-    }
-
-    .aside-2{
-      order:3;
-    }
-
-   }
-
-@media (min-width:800px) {
-
-  .navigation {
-        flex-flow: row wrap;
-        justify-content: flex-end;
-        display: flex;
-        margin: 1em;
-      }
-
-  .navigation a {
-      border: none;
-  }
-
-  .menu-trigger {
-        display: none;
-        order: 1;
-    }
-
-    .title{
-      width: 40%;
-  }
-
-    nav ul {
-      display: flex;
-    }
-
-    aside {
-      flex: 0.5 auto;
-    }
-
-  article {
-            width: 70%;
-            height:85%;
-            float: left;
-            order:1;
-              }
-
-    .aside-1{
-      order:2;
-      height:20%;
-      float: right;
-      margin:0;
-      padding:0;
-    }
-
-    .navigation2{
-      order:3;
-    }
-
-    footer{
-      order:5;
-}
-}
-@media (min-width:930px) {
-
-.navigation {
-        flex-flow: row wrap;
-        justify-content: flex-end;
-        display: flex;
-        margin: 1em;
-      }
-
-  .navigation a {
-      border: none;
-  }
-
-  .menu-trigger {
-        display: none;
-        order: 1;
-    }
-
-    .title{
-      width: 40%;
-  }
-
-    nav ul {
-      display: flex;
-    }
-
-    aside {
-      flex: 0.5 auto;
-    }
-
-  article {
-            width: 55%;
-            height:90%;
-            float: left;
-            order:1;
-              }
-
-    .aside-1{
-      order:3;
-      height:30%;
-      float: left;
-      margin:0;
-      padding:0;
-    }
-
-    .navigation2{
-      order:2;
-      width:45%;
-      float:right;
-    }
-
-    footer{
-      order:4;
-}
-}
-
-/*ends mediaquery*/
 
 
 #storycat a:link, #storycat a:visited{
@@ -551,3 +406,107 @@ form div + div {
   }
 /*
 slideshow end here*/
+
+/*mediaquery here*/
+@media (min-width:800px) {
+
+  .navigation {
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        display: flex;
+        margin: 1em;
+      }
+
+  .navigation a {
+      border: none;
+  }
+
+  .menu-trigger {
+        display: none;
+        order: 1;
+    }
+
+    .title{
+      width: 40%;
+  }
+
+    nav ul {
+      display: flex;
+    }
+
+
+  article {
+            width: 70%;
+            float: left;
+              }
+
+    .aside-1{
+      margin:auto;
+    }
+
+    .navigation2{
+      float:right
+    }
+
+    #footer{
+      clear:both;
+}
+
+}
+@media (min-width:930px) {
+
+.navigation {
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        display: flex;
+        margin: 1em;
+      }
+
+  .navigation a {
+      border: none;
+  }
+
+  .menu-trigger {
+        display: none;
+        order: 1;
+    }
+
+    .title{
+      width: 40%;
+  }
+
+    nav ul {
+      display: flex;
+    }
+
+    aside {
+      flex: 0.5 auto;
+    }
+
+  article {
+            width: 55%;
+            height:90%;
+            float: left;
+            order:1;
+              }
+
+    .aside-1{
+      order:3;
+      height:30%;
+      float: left;
+      margin:0;
+      padding:0;
+    }
+
+    .navigation2{
+      order:2;
+      width:45%;
+      float:right;
+    }
+
+    #footer{
+      clear:both;
+}
+}
+
+/*ends mediaquery*/
