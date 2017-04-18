@@ -97,13 +97,13 @@ article{
 
 .card-container {
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
 }
 
 .card {
-    border: 1px solid gray;
+    border: 1px solid black;
     box-shadow: 1px 1px 3px #888;
-    border-top: 10px solid #bd5532;
+    border-top: 1px solid black;
     padding: 0;
     margin-bottom: 20px;
 }
