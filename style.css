@@ -52,23 +52,9 @@ header{
   background-color: #F1B82D;
 }
 
-.picture{
-  object-position: center;
-}
-
 body {
     line-height: 1.45em;
     background-color: #ffffff;
-}
-
-#container {
-    width: 90%;
-    margin: 0 auto;
-}
-
-.wrapper {
-    display: flex;
-    flex-flow: row wrap;
 }
 
 #bar {
@@ -77,6 +63,11 @@ body {
     justify-content: space-between;
     margin-bottom: 0.7em;
     border-bottom: 1px solid #ccc;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
 }
 
 h1, h2{
@@ -179,7 +170,6 @@ table, td, tr {
 @media screen and (min-width: 500px){
 
 
-
      .menu-trigger{
        display: block;
        order:1;
@@ -218,9 +208,9 @@ table, td, tr {
         order: 1;
     }
 
-.title{
-  width: 40%;
-}
+    .title{
+      width: 40%;
+  }
 
     .wrapper{
       display: flex;
@@ -233,12 +223,12 @@ table, td, tr {
 
     aside {
       flex: 0.5 auto;
-  }
+    }
 
   article {
-                  width: 80%;
-                  height:85%;
-                  float: left;
+            width: 80%;
+            height:85%;
+            float: left;
               }
 
     .aside-1{
