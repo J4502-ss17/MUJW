@@ -103,11 +103,11 @@ article{
 }
 
 .aside-2{
-  background-color: #025C7A;
+  background-color: #ffffff;
   font-family: 'Antic Slab', serif;
-  color: #ccc;
+  color: #000;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 2em;
   text-align: center;
   text-decoration: none;
   flex-flow: row;
@@ -158,8 +158,8 @@ td {
 
 table, td, tr {
    border: 1px solid black;
-   color:#ffffff;
-   background-color: #4D4F4F;
+   color:#000;
+   background-color: white;
    font-weight: bold;
    text-decoration: none;
    text-align: center;
@@ -226,16 +226,17 @@ table, td, tr {
     }
 
   article {
-            width: 80%;
+            width: 70%;
             height:85%;
             float: left;
+            order:1;
               }
 
     .aside-1{
       order:2;
-      width:20%;
-      height:60%;
-      float: left;
+      width:25%;
+      height:20%;
+      float: right;
       margin:0;
       padding:0;
     }
@@ -247,7 +248,7 @@ table, td, tr {
 
 #storycat a:link, #storycat a:visited{
 display: block;
-color:#ffffff;
+color:#000;
 font-weight: bold;
 text-decoration: none;
 text-align: center;
@@ -258,7 +259,7 @@ font-family: 'Libre Franklin', sans-serif;
 }
 
 #storycat a:hover, #storycat a:active {
- background-color: #FAF205;
+ background-color: #F1B82D;
  color:black;
 }
 
