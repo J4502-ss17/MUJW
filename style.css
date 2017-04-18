@@ -189,7 +189,7 @@ table, td, tr {
    font-family: 'Libre Franklin', sans-serif;
    }
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 600px){
 
 
      .menu-trigger{
@@ -222,7 +222,7 @@ table, td, tr {
 
    }
 
-@media (min-width:700px) {
+@media (min-width:1000px) {
 
   .navigation {
         flex-flow: row wrap;
