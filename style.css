@@ -95,6 +95,11 @@ article{
   width: 100%;
 }
 
+.card{
+  display: flex;
+  flex-flow:row;
+}
+
 .aside-1{
   background-color: #ffffff;
   text-decoration: none;
