@@ -113,6 +113,11 @@ article{
     padding: 10px;
 }
 
+img{
+  width: 20%;
+  height: auto;
+}
+
 .aside-1{
   background-color: #ffffff;
   text-decoration: none;
