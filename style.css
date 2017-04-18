@@ -52,6 +52,44 @@ header{
   background-color: #F1B82D;
 }
 
+/*ends here*/
+
+/*bottom navigation2 style*/
+.navigation2{
+  font-family: 'Antic Slab', serif;
+  margin:0;
+  list-style-type: none;
+  display: block;
+  flex-flow: column;
+  color:#ffffff;
+  background-color: #025C7A;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navigation2 li {
+  margin:0;
+  padding:0;
+  border-bottom: 1px solid #ccc;
+}
+
+.navigation2 a{
+  font-family: 'Antic Slab', serif;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+.navigation2 a:hover, .navigation2 a:active {
+  background-color: #F1B82D;
+}
+/*end here*/
+
 body {
     line-height: 1.45em;
     background-color: #ffffff;
