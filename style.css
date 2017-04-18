@@ -95,9 +95,21 @@ article{
   width: 100%;
 }
 
-.card{
-  display: flex;
-  flex-flow:row;
+.card-container {
+    display: flex;
+    flex-flow: column;
+}
+
+.card {
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid #bd5532;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.card p {
+    padding: 10px;
 }
 
 .aside-1{
