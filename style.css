@@ -242,10 +242,6 @@ table, td, tr {
       justify-content: space-between;
     }
 
-    .card{
-      width: 45%;
-    }
-
     .aside-1{
       display: block;
       order:2;
@@ -279,15 +275,6 @@ table, td, tr {
       width: 40%;
   }
 
-    .wrapper{
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    .card{
-      width: 30%;
-    }
-
     nav ul {
       display: flex;
     }
@@ -311,6 +298,64 @@ table, td, tr {
       padding:0;
     }
 
+    .navigation2{
+      order:3;
+    }
+
+    footer{
+      order:5;
+}
+}
+@media (min-width:930px) {
+
+.navigation {
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        display: flex;
+        margin: 1em;
+      }
+
+  .navigation a {
+      border: none;
+  }
+
+  .menu-trigger {
+        display: none;
+        order: 1;
+    }
+
+    .title{
+      width: 40%;
+  }
+
+    nav ul {
+      display: flex;
+    }
+
+    aside {
+      flex: 0.5 auto;
+    }
+
+  article {
+            width: 55%;
+            height:90%;
+            float: left;
+            order:1;
+              }
+
+    .aside-1{
+      order:3;
+      height:30%;
+      float: left;
+      margin:0;
+      padding:0;
+    }
+
+    .navigation2{
+      order:2;
+      width:45%;
+      float:right;
+    }
 
     footer{
       order:4;
