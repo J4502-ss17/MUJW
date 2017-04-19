@@ -121,6 +121,17 @@ article{
   width: 100%;
 }
 
+.toplevelcontainersponsor {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 60%;
+  margin-left: 10em;
+}
+
+.maincontentcontainersponsor {
+  text-align: center;
+}
+
 .top-content p {
   text-align: center
 }
@@ -192,9 +203,10 @@ article{
 .categories li{
   margin:0;
   padding:0;
-  border-bottom: 1px;
+  border-bottom: 1px #e6e6e6;
   font-size: 1em;
   text-decoration: none;
+  align-items: right;
 }
 
 p {
@@ -466,6 +478,10 @@ slideshow end here*/
             width: 70%;
             float: left;
               }
+
+  .toplevelcontainersponsor{
+    flex-flow: column;
+  }
 
   .card-container {
     flex-flow: row;
