@@ -561,6 +561,7 @@ table, td, tr {
 
 
 #storycat a:link, #storycat a:visited{
+width:100%;
 display: block;
 color:#000;
 font-weight: bold;
