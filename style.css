@@ -564,7 +564,7 @@ slideshow end here*/
     padding: 0;
     margin-bottom: 20px;
     text-align: center;
-    
+
 }
 
 .archive p {
@@ -578,47 +578,30 @@ slideshow end here*/
 
 }
 
+.storycat-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 
+}
 
-td {
+.storycat{
+    border: 1px solid black;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 1px solid black;
+    padding: 0;
+    margin-bottom: 20px;
     text-align: center;
-    image-orientation: center;
+
 }
 
-table, td, tr {
-   border: 1px solid black;
-   color:#000;
-   background-color: white;
-   font-weight: bold;
-   text-decoration: none;
-   text-align: center;
-   image-orientation: center;
-   text-decoration: inherit;
-   font-family: 'Libre Franklin', sans-serif;
-   }
-
-
-
-
-   .storycat {
-      width:100%;
-       display: flex;
-       flex-flow: row wrap;
-
-#storycat a:link, #storycat a:visited{
-display: block;
-color:#000;
-font-weight: bold;
-text-decoration: none;
-text-align: center;
-image-orientation: center;
-text-decoration: inherit;
-padding: 8px;
-margin: 4px;
-font-family: 'Libre Franklin', sans-serif;
+.storycat p {
+    padding: 10px;
+    margin-bottom: 0.5em;
 }
 
-#storycat a:hover, #storycat a:active {
- background-color: #F1B82D;
- color:black;
+.storycat img {
+
+  height: auto;
+
 }
