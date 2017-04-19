@@ -121,6 +121,10 @@ article{
   width: 100%;
 }
 
+.top-content p {
+  text-align: center
+}
+
 .card-container {
     display: flex;
     flex-flow: row;
