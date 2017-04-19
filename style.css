@@ -124,7 +124,7 @@ article{
 .toplevelcontainersponsor {
   display: flex;
   flex-flow: row nowrap;
-  width: 60%;
+  width: 100%;
   margin-left: 10em;
 }
 
@@ -187,7 +187,7 @@ article{
   font-size: 20px;
 }
 
-.aside-1{
+.aside-1 {
   background-color: #ffffff;
   font-family: 'Antic Slab', serif;
   color: #000;
@@ -197,7 +197,6 @@ article{
   text-decoration: none;
   flex-flow: row;
   font-weight: bold;
-  width: 100%;
 }
 
 .categories li{
@@ -480,7 +479,7 @@ slideshow end here*/
               }
 
   .toplevelcontainersponsor{
-    flex-flow: column;
+    flex-flow: row;
   }
 
   .card-container {
@@ -563,6 +562,10 @@ slideshow end here*/
   text-align: center;
   margin:0 auto;
   font-size: 2em;
+}
+
+.toplevelcontainersponsor {
+  flex-flow: wrap;
 }
 
 .top-archive-container {
