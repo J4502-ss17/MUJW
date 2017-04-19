@@ -48,6 +48,7 @@ header{
   background-color: #F1B82D;
 }
 
+<<<<<<< HEAD
 /*bottom navigation2 style*/
 .navigation2{
   font-family: 'Antic Slab', serif;
@@ -77,6 +78,72 @@ header{
   color: #F1B82D;
 }
 
+=======
+<<<<<<< HEAD
+.top-content p {
+  text-align: center;
+}
+
+.workshopperslist a {
+  text-decoration: none;
+  color: #025C7A;
+}
+
+.workshopperslist a:hover, .workshopperslist a:active {
+  color: #F1B82D;
+}
+
+.sponsorslist li {
+  list-style-type: none;
+}
+
+.sponsorslist a {
+  text-decoration: none;
+  font-family:"Libre Franklin", Helvetica, Arial, sans-serif;
+  color: blue;
+  font-size: 20px;
+}
+
+.sponsorslist a:visited {
+  color: gray;
+}
+
+.sponsorslist a:hover {
+  color: #F1B82D;
+}
+
+=======
+>>>>>>> origin/master
+/*bottom navigation2 style*/
+.navigation2{
+  font-family: 'Antic Slab', serif;
+  margin:0;
+  list-style-type: none;
+  display: block;
+  flex-flow: column;
+  color:#F1B82D;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navigation2 li {
+  margin:0;
+  padding:0;
+}
+
+.navigation2 a{
+  font-family: 'Antic Slab', serif;
+  display: block;
+  font-size:0.7em;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  color: #F1B82D;
+}
+
+>>>>>>> origin/master
 /*end here*/
 
 body {
@@ -98,7 +165,7 @@ body {
 }
 
 h1, h2{
-    font-family:"Lora", Georgia, "Times New Roman", serif;
+    font-family:"Libre Franklin", Helvetica, Arial, sans-serif;
     font-weight: 300;
     text-align: center;
     color:#025C7A;
@@ -121,12 +188,60 @@ article{
   width: 100%;
 }
 
+<<<<<<< HEAD
 .card-container {
+=======
+<<<<<<< HEAD
+.top-archive-container {
+>>>>>>> origin/master
     display: flex;
     flex-flow: row;
 }
 
+<<<<<<< HEAD
 .card {
+=======
+.archive-container {
+    display: flex;
+    flex-flow: row;
+
+}
+
+.archive{
+    border: 1px solid black;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 1px solid black;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.archive p {
+    padding: 10px;
+    margin-bottom: 0.5em;
+}
+
+.archive img {
+  width: 100%;
+  height: auto;
+
+=======
+.toplevelcontainer {
+  display:flex;
+  flex-flow: row nowrap;
+  margin-left: 5em;
+>>>>>>> origin/master
+}
+
+.card-container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 100%;
+>>>>>>> origin/master
     border: 1px solid black;
     box-shadow: 1px 1px 3px #888;
     border-top: 1px solid black;
@@ -154,10 +269,15 @@ article{
   color: #000;
   font-weight: bold;
   font-size: 2em;
+<<<<<<< HEAD
   text-align: center;
+=======
+  text-align: left;
+>>>>>>> origin/master
   text-decoration: none;
   flex-flow: row;
   font-weight: bold;
+  margin-right: 5em;
   width: 100%;
 }
 
@@ -193,13 +313,12 @@ img{
   margin-bottom: 1em;
 }
 
-table {
-    width: 100%;
-}
+
 
 td {
     height: 50px;
     text-align: center;
+    image-orientation: center;
 }
 
 table, td, tr {
@@ -209,10 +328,18 @@ table, td, tr {
    font-weight: bold;
    text-decoration: none;
    text-align: center;
+   image-orientation: center;
    text-decoration: inherit;
    font-family: 'Libre Franklin', sans-serif;
    }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> origin/master
 
 #storycat a:link, #storycat a:visited{
 display: block;
@@ -220,6 +347,7 @@ color:#000;
 font-weight: bold;
 text-decoration: none;
 text-align: center;
+image-orientation: center;
 text-decoration: inherit;
 padding: 8px;
 margin: 4px;
@@ -429,16 +557,45 @@ slideshow end here*/
       width: 40%;
   }
 
+<<<<<<< HEAD
+=======
+  .card-container{
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card{
+    width: 45%;
+  }
+
+>>>>>>> origin/master
     nav ul {
       display: flex;
     }
 
 
   article {
+<<<<<<< HEAD
             width: 70%;
             float: left;
               }
 
+=======
+    width: 70%;
+    float: left;
+    order: 1;
+  }
+
+<<<<<<< HEAD
+  aside {
+    flex: 1 100px;
+    order: 2;
+  }
+
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
     .navigation2{
       float:right
       width:auto;
@@ -472,6 +629,19 @@ slideshow end here*/
       width: 40%;
   }
 
+<<<<<<< HEAD
+=======
+  .card-container{
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 20%;
+  }
+
+>>>>>>> origin/master
     nav ul {
       display: flex;
     }
@@ -504,6 +674,7 @@ slideshow end here*/
   margin:0 auto;
   font-size: 2em;
 }
+<<<<<<< HEAD
 
 .top-archive-container {
     display: flex;
@@ -577,3 +748,5 @@ font-family: 'Libre Franklin', sans-serif;
  background-color: #F1B82D;
  color:black;
 }
+=======
+>>>>>>> origin/master
