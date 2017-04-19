@@ -134,7 +134,8 @@ article{
 
 .toplevelcontainerarchive {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row;
+  flex-wrap: nowrap;
   width: 80%;
   margin-right: 10em;
 }
@@ -486,7 +487,7 @@ slideshow end here*/
               }
 
   .toplevelcontainersponsor{
-    flex-flow: row;
+    flex-flow: row wrap;
   }
 
   .card-container {
@@ -576,7 +577,7 @@ slideshow end here*/
 }
 
 .toplevelcontainerarchive {
-  flex-flow: wrap;
+  flex-flow: row wrap;
 }
 
 .top-archive-container {
