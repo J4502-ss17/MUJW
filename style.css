@@ -125,6 +125,12 @@ article{
   text-align: center
 }
 
+.workshopperslist a{
+  color: #025C7A;
+  text-decoration: none;
+  margin-left: 7em;
+}
+
 .card-container {
     display: flex;
     flex-flow: row;
