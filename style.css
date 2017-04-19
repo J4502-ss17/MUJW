@@ -541,7 +541,6 @@ slideshow end here*/
 
 
 td {
-    height: 50px;
     text-align: center;
     image-orientation: center;
 }
@@ -567,7 +566,6 @@ table, td, tr {
        flex-flow: row wrap;
 
 #storycat a:link, #storycat a:visited{
-width:100%;
 display: block;
 color:#000;
 font-weight: bold;
