@@ -162,6 +162,18 @@ article{
   font-weight: bold;
 }
 
+.sponsorslist li {
+  list-style-type: none;
+  text-align: left;
+}
+
+.sponsorslist a {
+  text-decoration: none;
+  color: #025C7A;
+  font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
 .aside-1{
   background-color: #ffffff;
   font-family: 'Antic Slab', serif;
