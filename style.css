@@ -515,7 +515,7 @@ slideshow end here*/
 
 .top-archive-container {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
 }
 
 .archive-container {
@@ -539,7 +539,7 @@ slideshow end here*/
 }
 
 .archive img {
-  
+
   height: auto;
 
 }
