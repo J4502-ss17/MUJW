@@ -124,12 +124,19 @@ article{
 .toplevelcontainersponsor {
   display: flex;
   flex-flow: row nowrap;
-  width: 100%;
+  width: 80%;
   margin-left: 10em;
 }
 
 .maincontentcontainersponsor {
   text-align: center;
+}
+
+.toplevelcontainerarchive {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 80%;
+  margin-right: 10em;
 }
 
 .top-content p {
@@ -565,6 +572,10 @@ slideshow end here*/
 }
 
 .toplevelcontainersponsor {
+  flex-flow: wrap;
+}
+
+.toplevelcontainerarchive {
   flex-flow: wrap;
 }
 
