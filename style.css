@@ -121,6 +121,37 @@ article{
   width: 100%;
 }
 
+.top-archive-container {
+    display: flex;
+    flex-flow: row;
+}
+
+.archive-container {
+    display: flex;
+    flex-flow: row;
+
+}
+
+.archive{
+    border: 1px solid black;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 1px solid black;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.archive p {
+    padding: 10px;
+    margin-bottom: 0.5em;
+}
+
+.archive img {
+  width: 100%;
+  height: auto;
+
+}
+
 .card-container {
     display: flex;
     flex-flow: row;
@@ -193,13 +224,12 @@ img{
   margin-bottom: 1em;
 }
 
-table {
-    width: 100%;
-}
+
 
 td {
     height: 50px;
     text-align: center;
+    image-orientation: center;
 }
 
 table, td, tr {
@@ -209,9 +239,14 @@ table, td, tr {
    font-weight: bold;
    text-decoration: none;
    text-align: center;
+   image-orientation: center;
    text-decoration: inherit;
    font-family: 'Libre Franklin', sans-serif;
    }
+
+
+
+
 
 
 #storycat a:link, #storycat a:visited{
@@ -220,6 +255,7 @@ color:#000;
 font-weight: bold;
 text-decoration: none;
 text-align: center;
+image-orientation: center;
 text-decoration: inherit;
 padding: 8px;
 margin: 4px;
