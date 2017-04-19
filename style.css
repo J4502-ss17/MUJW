@@ -48,6 +48,41 @@ header{
   background-color: #F1B82D;
 }
 
+<<<<<<< HEAD
+.top-content p {
+  text-align: center;
+}
+
+.workshopperslist a {
+  text-decoration: none;
+  color: #025C7A;
+}
+
+.workshopperslist a:hover, .workshopperslist a:active {
+  color: #F1B82D;
+}
+
+.sponsorslist li {
+  list-style-type: none;
+}
+
+.sponsorslist a {
+  text-decoration: none;
+  font-family:"Libre Franklin", Helvetica, Arial, sans-serif;
+  color: blue;
+  font-size: 20px;
+}
+
+.sponsorslist a:visited {
+  color: gray;
+}
+
+.sponsorslist a:hover {
+  color: #F1B82D;
+}
+
+=======
+>>>>>>> origin/master
 /*bottom navigation2 style*/
 .navigation2{
   font-family: 'Antic Slab', serif;
@@ -98,7 +133,7 @@ body {
 }
 
 h1, h2{
-    font-family:"Lora", Georgia, "Times New Roman", serif;
+    font-family:"Libre Franklin", Helvetica, Arial, sans-serif;
     font-weight: 300;
     text-align: center;
     color:#025C7A;
@@ -121,6 +156,7 @@ article{
   width: 100%;
 }
 
+<<<<<<< HEAD
 .top-archive-container {
     display: flex;
     flex-flow: row;
@@ -150,14 +186,22 @@ article{
   width: 100%;
   height: auto;
 
+=======
+.toplevelcontainer {
+  display:flex;
+  flex-flow: row nowrap;
+  margin-left: 5em;
+>>>>>>> origin/master
 }
 
 .card-container {
     display: flex;
     flex-flow: row;
+    flex-wrap: wrap;
 }
 
 .card {
+    width: 100%;
     border: 1px solid black;
     box-shadow: 1px 1px 3px #888;
     border-top: 1px solid black;
@@ -185,10 +229,11 @@ article{
   color: #000;
   font-weight: bold;
   font-size: 2em;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   flex-flow: row;
   font-weight: bold;
+  margin-right: 5em;
   width: 100%;
 }
 
@@ -465,16 +510,35 @@ slideshow end here*/
       width: 40%;
   }
 
+  .card-container{
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card{
+    width: 45%;
+  }
+
     nav ul {
       display: flex;
     }
 
 
   article {
-            width: 70%;
-            float: left;
-              }
+    width: 70%;
+    float: left;
+    order: 1;
+  }
 
+<<<<<<< HEAD
+  aside {
+    flex: 1 100px;
+    order: 2;
+  }
+
+=======
+>>>>>>> origin/master
     .navigation2{
       float:right
       width:auto;
@@ -506,6 +570,16 @@ slideshow end here*/
 
     .title{
       width: 40%;
+  }
+
+  .card-container{
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 20%;
   }
 
     nav ul {
