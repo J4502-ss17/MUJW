@@ -1,12 +1,8 @@
-/*Styles go here*/
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
 header{
-    background-image: url(img/jesse.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
     padding: 1rem 0;
     margin: 0;
     width: 100%;
@@ -52,7 +48,37 @@ header{
   background-color: #F1B82D;
 }
 
-/*ends here*/
+.top-content p {
+  text-align: center;
+}
+
+.workshopperslist a {
+  text-decoration: none;
+  color: #025C7A;
+}
+
+.workshopperslist a:hover, .workshopperslist a:active {
+  color: #F1B82D;
+}
+
+.sponsorslist li {
+  list-style-type: none;
+}
+
+.sponsorslist a {
+  text-decoration: none;
+  font-family:"Libre Franklin", Helvetica, Arial, sans-serif;
+  color: blue;
+  font-size: 20px;
+}
+
+.sponsorslist a:visited {
+  color: gray;
+}
+
+.sponsorslist a:hover {
+  color: #F1B82D;
+}
 
 /*bottom navigation2 style*/
 .navigation2{
@@ -61,8 +87,7 @@ header{
   list-style-type: none;
   display: block;
   flex-flow: column;
-  color:#ffffff;
-  background-color: #025C7A;
+  color:#F1B82D;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -72,22 +97,18 @@ header{
 .navigation2 li {
   margin:0;
   padding:0;
-  border-bottom: 1px solid #ccc;
 }
 
 .navigation2 a{
   font-family: 'Antic Slab', serif;
   display: block;
-  font-weight: bold;
+  font-size:0.7em;
   text-align: center;
   text-decoration: none;
   padding: 10px;
-  color: white;
+  color: #F1B82D;
 }
 
-.navigation2 a:hover, .navigation2 a:active {
-  background-color: #F1B82D;
-}
 /*end here*/
 
 body {
@@ -109,12 +130,13 @@ body {
 }
 
 h1, h2{
-    font-family:"Lora", Georgia, "Times New Roman", serif;
+    font-family:"Libre Franklin", Helvetica, Arial, sans-serif;
     font-weight: 300;
     text-align: center;
     color:#025C7A;
     padding: 10px;
     margin:auto;
+    line-height: normal;
 }
 
 h1 {
@@ -124,21 +146,21 @@ h1 {
 
 h2{
     font-size: 1.5em;
-    color: #ffffff;
     margin-bottom: 0.8em;
 }
 
 article{
-  background-color: #F1B82D;
   width: 100%;
 }
 
 .card-container {
     display: flex;
     flex-flow: row;
+    flex-wrap: wrap;
 }
 
 .card {
+    width: 100%;
     border: 1px solid black;
     box-shadow: 1px 1px 3px #888;
     border-top: 1px solid black;
@@ -161,14 +183,6 @@ article{
 }
 
 .aside-1{
-  background-color: #ffffff;
-  width: 100%;
-  text-decoration: none;
-  flex-flow: row;
-  padding:2;
-}
-
-.aside-2{
   background-color: #ffffff;
   font-family: 'Antic Slab', serif;
   color: #000;
@@ -233,98 +247,6 @@ table, td, tr {
    font-family: 'Libre Franklin', sans-serif;
    }
 
-@media screen and (min-width: 600px){
-
-
-     .menu-trigger{
-       display: block;
-       order:1;
-     }
-
-     #container {
-        width: 80%;
-    }
-
-    .card-container{
-      flex-flow: row;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-
-    .card{
-      width: 45%;
-    }
-
-    .aside-1{
-      display: block;
-      order:2;
-    }
-
-    .aside-2{
-      order:3;
-    }
-
-   }
-
-@media (min-width:1000px) {
-
-  .navigation {
-        flex-flow: row wrap;
-        justify-content: flex-end;
-        display: flex;
-        margin: 1em;
-      }
-
-  .navigation a {
-      border: none;
-  }
-
-  .menu-trigger {
-        display: none;
-        order: 1;
-    }
-
-    .title{
-      width: 40%;
-  }
-
-    .wrapper{
-      display: flex;
-      flex-flow: row wrap;
-    }
-
-    .card{
-      width: 30%;
-    }
-
-    nav ul {
-      display: flex;
-    }
-
-    aside {
-      flex: 0.5 auto;
-    }
-
-  article {
-            width: 70%;
-            height:85%;
-            float: left;
-            order:1;
-              }
-
-    .aside-1{
-      order:2;
-      width:25%;
-      height:20%;
-      float: right;
-      margin:0;
-      padding:0;
-    }
-
-    footer{
-      order:4;
-}
-}
 
 #storycat a:link, #storycat a:visited{
 display: block;
@@ -541,21 +463,31 @@ slideshow end here*/
       width: 40%;
   }
 
+  .card-container{
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card{
+    width: 45%;
+  }
+
     nav ul {
       display: flex;
     }
 
 
   article {
-            width: 70%;
-            float: left;
-              }
+    width: 70%;
+    float: left;
+    order: 1;
+  }
 
-    .aside-1{
-        background-color: #ccc;
-        width:100%;
-        clear:both;
-              }
+  aside {
+    flex: 1 100px;
+    order: 2;
+  }
 
     .navigation2{
       float:right
@@ -590,6 +522,16 @@ slideshow end here*/
       width: 40%;
   }
 
+  .card-container{
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 20%;
+  }
+
     nav ul {
       display: flex;
     }
@@ -599,23 +541,14 @@ slideshow end here*/
     }
 
   article {
-            width: 55%;
-            height:90%;
+            width: 70%;
             float: left;
-            order:1;
+            padding-left: 150px;
               }
 
-    .aside-1{
-      order:3;
-      height:30%;
-      float: left;
-      margin:0;
-      padding:0;
-    }
 
     .navigation2{
-      order:2;
-      width:45%;
+      width:30%;
       float:right;
     }
 
@@ -623,5 +556,11 @@ slideshow end here*/
       clear:both;
 }
 }
-
 /*ends mediaquery*/
+
+/*examplepage container1*/
+#container1{
+  text-align: center;
+  margin:0 auto;
+  font-size: 2em;
+}
