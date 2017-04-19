@@ -124,6 +124,8 @@ article{
 .card-container {
     display: flex;
     flex-flow: row;
+    flex-wrap: wrap;
+    width: 40%;
 }
 
 .card {
@@ -132,6 +134,7 @@ article{
     border-top: 1px solid black;
     padding: 0;
     margin-bottom: 20px;
+    flex-flow: row;
 }
 
 .card p {
