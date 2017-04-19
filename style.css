@@ -125,7 +125,6 @@ article{
     display: flex;
     flex-flow: row;
     flex-wrap: wrap;
-    width: 40%;
 }
 
 .card {
@@ -135,6 +134,8 @@ article{
     padding: 0;
     margin-bottom: 20px;
     flex-flow: row;
+    width:30%;
+    margin-right: 20px;
 }
 
 .card p {
