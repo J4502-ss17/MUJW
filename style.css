@@ -48,6 +48,7 @@ header{
   background-color: #F1B82D;
 }
 
+<<<<<<< HEAD
 .top-content p {
   text-align: center;
 }
@@ -80,6 +81,8 @@ header{
   color: #F1B82D;
 }
 
+=======
+>>>>>>> origin/master
 /*bottom navigation2 style*/
 .navigation2{
   font-family: 'Antic Slab', serif;
@@ -484,11 +487,14 @@ slideshow end here*/
     order: 1;
   }
 
+<<<<<<< HEAD
   aside {
     flex: 1 100px;
     order: 2;
   }
 
+=======
+>>>>>>> origin/master
     .navigation2{
       float:right
       width:auto;
