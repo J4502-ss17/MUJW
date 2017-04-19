@@ -133,8 +133,9 @@ article{
 
 .card-container {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     flex-wrap: wrap;
+    margin-left: 5em;
 }
 
 .card {
@@ -144,8 +145,9 @@ article{
     padding: 0;
     margin-bottom: 20px;
     flex-flow: row;
-    width:30%;
+    width:80%;
     margin-right: 20px;
+    justify-content: center;
 }
 
 .card p {
@@ -465,6 +467,15 @@ slideshow end here*/
             float: left;
               }
 
+  .card-container {
+    flex-flow: row;
+    Flex-wrap: wrap;
+  }
+
+  .card {
+    width: 40%;
+  }
+
     .navigation2{
       float:right
       width:auto;
@@ -512,6 +523,9 @@ slideshow end here*/
             padding-left: 150px;
               }
 
+  .card {
+    width: 30%;
+  }
 
     .navigation2{
       width:30%;
