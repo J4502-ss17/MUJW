@@ -505,34 +505,7 @@ slideshow end here*/
 }
 
 
-.storycat-container{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
 
-}
-
-.storycat{
-    border: 1px solid black;
-    box-shadow: 1px 1px 3px #888;
-    border-top: 1px solid black;
-    padding: 0;
-    margin-bottom: 20px;
-    text-align: center;
-    width: 30%;
-
-}
-
-.storycat p {
-    padding: 10px;
-    margin-bottom: 0.5em;
-}
-
-.storycat img {
-
-  height: auto;
-
-}
 
 @media (min-width:930px) {
 
