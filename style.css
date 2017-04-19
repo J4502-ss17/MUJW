@@ -156,6 +156,12 @@ article{
   width: 100%;
 }
 
+.toplevelcontainer {
+  display:flex;
+  flex-flow: row nowrap;
+  margin-left: 5em;
+}
+
 .card-container {
     display: flex;
     flex-flow: row;
@@ -191,10 +197,11 @@ article{
   color: #000;
   font-weight: bold;
   font-size: 2em;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   flex-flow: row;
   font-weight: bold;
+  margin-right: 5em;
   width: 100%;
 }
 
