@@ -77,6 +77,15 @@ header{
   color: #F1B82D;
 }
 
+.topcontainer {
+  display: flex;
+  flex-flow: row wrap;
+  }
+
+.contentcontainer {
+  width: 75%;
+  padding: 10px;
+}
 /*end here*/
 
 body {
@@ -119,25 +128,6 @@ h2{
 
 article{
   width: 100%;
-}
-
-.toplevelcontainersponsor {
-  display: flex;
-  flex-flow: row nowrap;
-  width: 80%;
-  margin-left: 10em;
-}
-
-.maincontentcontainersponsor {
-  text-align: center;
-}
-
-.toplevelcontainerarchive {
-  display: flex;
-  flex-flow: row;
-  flex-wrap: nowrap;
-  width: 80%;
-  margin-right: 10em;
 }
 
 .top-content p {
@@ -195,15 +185,34 @@ article{
   font-size: 20px;
 }
 
-.aside-1 {
-  background-color: #ffffff;
-  font-family: 'Antic Slab', serif;
-  color: #000;
+.articlecontainer {
+  text-align: left;
+}
+
+.sidebar {
   font-weight: bold;
-  font-size: 2em;
-  text-align: center;
+  width: 25%;
+  padding: 20px;
+  right:0;
+}
+
+.sidebaritem {
+  font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+
+.sidebar li {
+  list-style-type: none;
+  text-align: left;
+}
+
+.sidebar a {
   text-decoration: none;
-  flex-flow: row;
+  color: #025C7A;
+  font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+  font-size: 20px;
   font-weight: bold;
 }
 
