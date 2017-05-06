@@ -207,13 +207,21 @@ article{
 }
 
 .searchbar-wrapper input {
-  width: 80%;
+  width: 75%;
   height: 40px;
 }
 
 .searchbar-wrapper button {
- width: 18%;
+ width: 20%;
  height: 40px;
+ background-color: #025C7A;
+ font-weight: bold;
+ color: white;
+ cursor: pointer;
+}
+
+.searchbar-wrapper button:hover {
+  background-color: #F1B82D;
 }
 /*End searchbar style*/
 
