@@ -197,13 +197,23 @@ article{
 /*Sidebar code*/
 /*Searchbar style*/
 
-.button_box2 {
+.searchbar {
   width: 90%;
 }
 
-.formwrapper {
+.searchbar-wrapper {
   width: 90%;
   height: 60px;
+}
+
+.searchbar-wrapper input {
+  width: 80%;
+  height: 40px;
+}
+
+.searchbar-wrapper button {
+ width: 18%;
+ height: 40px;
 }
 /*End searchbar style*/
 
@@ -372,7 +382,7 @@ font-family: 'Libre Franklin', sans-serif;
     text-align: left;
   }
 
-  input, textarea {
+  .conactinput, textarea {
     font: 1em sans-serif;
     width: 90%;
     height: 3em;
@@ -380,7 +390,7 @@ font-family: 'Libre Franklin', sans-serif;
     border: 1px solid #999;
   }
 
-  input:focus, textarea:focus {
+  .conactinput:focus, textarea:focus {
     border-color: #000;
   }
 
