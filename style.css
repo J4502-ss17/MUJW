@@ -79,11 +79,11 @@ header{
 
 .topcontainer {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
   }
 
 .contentcontainer {
-  width: 75%;
+  width: 100%;
   padding: 10px;
 }
 /*end here*/
@@ -189,18 +189,21 @@ article{
   text-align: left;
 }
 
+/*Sidebar code*/
+
 .sidebar {
   font-weight: bold;
   width: 25%;
-  padding: 20px;
   right:0;
 }
 
 .sidebaritem {
   font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
-  font-size: 40px;
+  font-size: 24px;
   font-weight: bold;
   padding-bottom: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .sidebar li {
@@ -224,6 +227,9 @@ article{
   text-decoration: none;
   align-items: right;
 }
+
+/*End sidebar code*/
+/*Start body code*/
 
 p {
     font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
@@ -461,6 +467,7 @@ form div + div {
 
   /*
 slideshow end here*/
+/*End body code*/
 
 /*mediaquery here*/
 @media (min-width:800px) {
@@ -489,15 +496,24 @@ slideshow end here*/
       display: flex;
     }
 
+.topcontainer {
+  flex-flow: row nowrap;
+}
 
-  article {
-            width: 70%;
-            float: left;
-              }
+.contentcontainer {
+  width: 75%;
+  padding: 10px;
+}
 
-  .toplevelcontainersponsor{
-    flex-flow: row wrap;
-  }
+.sidebarcontainer {
+  width: 25%;
+  padding: 10px;
+}
+
+article {
+  width: 70%;
+  float: left;
+}
 
   .card-container {
     flex-flow: row;
@@ -519,9 +535,6 @@ slideshow end here*/
 }
 
 }
-
-
-
 
 @media (min-width:930px) {
 
@@ -553,11 +566,12 @@ slideshow end here*/
       flex: 0.5 auto;
     }
 
+
   article {
-            width: 70%;
-            float: left;
-            padding-left: 150px;
-              }
+    width: 70%;
+    float: left;
+    padding-left: 150px;
+  }
 
   .card {
     width: 30%;
@@ -579,14 +593,6 @@ slideshow end here*/
   text-align: center;
   margin:0 auto;
   font-size: 2em;
-}
-
-.toplevelcontainersponsor {
-  flex-flow: wrap;
-}
-
-.toplevelcontainerarchive {
-  flex-flow: row wrap;
 }
 
 .top-archive-container {
