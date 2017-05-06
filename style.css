@@ -362,7 +362,7 @@ font-family: 'Libre Franklin', sans-serif;
     width: 90%;
   }
 
-form div + div {
+.contactinput {
     margin-top: 1em;
   }
 
@@ -386,16 +386,11 @@ form div + div {
 
   textarea {
     vertical-align: top;
-
-
     height: 8em;
   }
 
-  .button {
-    padding-bottom: 1px;
-  }
-
-  button {
+  .contactbutton button {
+    padding-bottom: 3px;
     margin-bottom: 0.5em;
   }
 
