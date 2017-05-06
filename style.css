@@ -402,11 +402,15 @@ font-family: 'Libre Franklin', sans-serif;
  color:black;
 }
 
-#footer {
-    border-top: 1px solid #ccc;
-    font-size: 0.5em;
-    text-align: center;
-    order:4;
+.footer {
+  border-top: 1px solid #ccc;
+  font-size: 0.5em;
+  max-width: 100%;
+}
+
+.footer p {
+  text-align: center;
+  margin-left: 30em;
 }
 
 #nav{
