@@ -147,9 +147,7 @@ article{
 }
 
 .card {
-    border: 1px solid black;
-    box-shadow: 1px 1px 3px #888;
-    border-top: 1px solid black;
+    border: none;
     padding: 0;
     margin-bottom: 20px;
     flex-flow: row;
@@ -160,7 +158,10 @@ article{
 
 .card p {
     padding: 10px;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
+    margin-left: 10px;
+    font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
 }
 
 .card img {
@@ -169,7 +170,11 @@ article{
 }
 
 .staff_name {
-  font-weight: bold;
+  font-weight: normal;
+  font-size: 1.5em;
+  font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+  margin-left: 10px;
+  color: #025C7A;
 }
 
 .sponsorslist li {
