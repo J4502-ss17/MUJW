@@ -130,14 +130,13 @@ article{
   width: 100%;
 }
 
-.top-content p {
-  text-align: center
-}
-
 .workshopperslist a{
   color: #025C7A;
   text-decoration: none;
-  margin-left: 7em;
+}
+
+.workshopperslist p{
+  margin-left: 15px;
 }
 
 .card-container {
@@ -183,6 +182,7 @@ article{
   color: #025C7A;
   font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
   font-size: 20px;
+  margin-left: 10px;
 }
 
 .articlecontainer {
@@ -190,6 +190,100 @@ article{
 }
 
 /*Sidebar code*/
+/*Searchbar style*/
+
+.button_box2 {
+width: 90%;
+height: 15%;
+margin-top: 10px auto;
+margin-bottom: 20px auto;
+}
+/*-------------------------------------*/
+.cf:before, .cf:after{
+content:"";
+display:table;
+}
+.cf:after{
+clear:both;
+}
+.cf{
+zoom:1;
+}
+/*-------------------------------------*/
+
+.form-wrapper-2 {
+width: 100%;
+height: 20%;
+background: #f1f1f1;
+}
+.form-wrapper-2 input {
+width: 100%;
+height: 20px;
+font: bold 15px 'Raleway', sans-serif;
+border: 0;
+background: #eee;
+}
+.form-wrapper-2 input:focus {
+outline: 0;
+background: #fff;
+}
+.form-wrapper-2 input::-webkit-input-placeholder {
+color: #999;
+font-weight: normal;
+font-style: italic;
+}
+.form-wrapper-2 input:-moz-placeholder {
+color: #999;
+font-weight: normal;
+font-style: italic;
+}
+.form-wrapper-2 input:-ms-input-placeholder {
+color: #999;
+font-weight: normal;
+font-style: italic;
+}
+.form-wrapper-2 button {
+overflow: visible;
+position: relative;
+float: right;
+border: 0;
+padding: 0;
+cursor: pointer;
+height: 40px;
+width: 80px;
+font: bold 15px/40px 'Raleway', sans-serif;
+color: #fff;
+text-transform: uppercase;
+background: #D88F3C;
+}
+.form-wrapper-2 button:hover{
+background: #FA8807;
+}
+.form-wrapper-2 button:active,
+.form-wrapper-2 button:focus{
+background: #c42f2f;
+}
+.form-wrapper-2 button:before {
+content: '';
+position: absolute;
+border-width: 8px 8px 8px 0;
+border-style: solid solid solid none;
+border-color: transparent #D88F3C transparent;
+top: 12px;
+left: -6px;
+}
+.form-wrapper-2 button:hover:before{
+border-right-color: #FA8807;
+}
+.form-wrapper-2 button:focus:before{
+border-right-color: #c42f2f;
+}
+.form-wrapper-2 button::-moz-focus-inner {
+border: 0;
+padding: 0;
+}
+
+/*End searchbar style*/
 
 .sidebar {
   font-weight: bold;
@@ -202,13 +296,20 @@ article{
   font-size: 24px;
   font-weight: bold;
   padding-bottom: 0px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 5px solid #f1f1f1;
+  padding-bottom: 10px;
+  max-width: 80%;
 }
 
 .sidebar li {
   list-style-type: none;
   text-align: left;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #f1f1f1;
+  padding-bottom: 10px;
+  max-width: 80%;
 }
 
 .sidebar a {
@@ -216,7 +317,7 @@ article{
   color: #025C7A;
   font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .categories li{
@@ -236,13 +337,16 @@ p {
     font-size: 1em;
     margin-bottom: 0.8em;
     text-align: left;
+    max-width: 900px;
+    margin-left: 50px;
 }
 
 h3,h4{
   font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
   font-size: 1.5em;
   margin-top: 0.5em;
-  text-align: center;
+  text-align: left;
+  margin-left: 50px;
 }
 
 h5{
