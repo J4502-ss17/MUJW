@@ -3,7 +3,6 @@
 }
 
 header{
-    padding: 1rem 0;
     margin: 0;
     width: 100%;
 }
@@ -14,12 +13,12 @@ header{
     color: #025C7A;
   }
 
+/*navigation style here*/
 .navigation{
   font-family: 'Antic Slab', serif;
   margin:0;
   list-style-type: none;
   display: none;
-  flex-flow: column;
   color:#ffffff;
   background-color: #025C7A;
   font-weight: bold;
@@ -28,65 +27,26 @@ header{
   padding: 10px;
 }
 
-.navigation li {
-  margin:0;
-  padding:0;
-  border-bottom: 1px solid #ccc;
-}
-
 .navigation a{
   font-family: 'Antic Slab', serif;
   display: block;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  padding: 10px;
+  padding: 8px;
   color: white;
+  font-size: 1.2em;
 }
 
 .navigation a:hover, .navigation a:active {
   background-color: #F1B82D;
 }
-
-/*bottom navigation2 style*/
-.navigation2{
-  font-family: 'Antic Slab', serif;
-  margin:0;
-  list-style-type: none;
-  display: block;
-  flex-flow: column;
-  color:#F1B82D;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  padding: 10px;
-}
-
-.navigation2 li {
-  margin:0;
-  padding:0;
-}
-
-.navigation2 a{
-  font-family: 'Antic Slab', serif;
-  display: block;
-  font-size:0.7em;
-  text-align: center;
-  text-decoration: none;
-  padding: 10px;
-  color: #F1B82D;
-}
+/*end here*/
 
 .topcontainer {
   display: flex;
   flex-flow: column;
   }
-
-.contentcontainer {
-  width: 100%;
-  padding: 10px;
-}
-/*end here*/
 
 body {
     line-height: 1.45em;
@@ -96,8 +56,7 @@ body {
 #bar {
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
-    margin-bottom: 0.7em;
+    height:155px;
     border-bottom: 1px solid #ccc;
 }
 
@@ -107,7 +66,7 @@ body {
 }
 
 h1, h2{
-    font-family:"Lora", Georgia, "Times New Roman", serif;
+    font-family:'Merri weather',Georgia, "Times New Roman", serif;
     font-weight: 300;
     text-align: center;
     color:#025C7A;
@@ -117,17 +76,12 @@ h1, h2{
 }
 
 h1 {
-    font-size: 3em;
-    margin-top: 0.5em;
+    font-size: 2.8em;
+    margin-top: 0.3em;
 }
 
 h2{
-    font-size: 1.5em;
-    margin-bottom: 0.8em;
-}
-
-article{
-  width: 100%;
+    font-size: 1.4em;
 }
 
 .workshopperslist a{
@@ -354,7 +308,6 @@ font-family: 'Libre Franklin', sans-serif;
 
 .footer p {
   text-align: center;
-  margin-left: 30em;
 }
 
 #nav{
@@ -428,9 +381,10 @@ font-family: 'Libre Franklin', sans-serif;
 
   /* Slideshow container */
   .slideshow-container {
+    margin-left: 40px;
+    margin-right: 20px;
     max-width: 1000px;
     position: relative;
-    margin: auto;
   }
 
   .mySlides {
@@ -525,15 +479,11 @@ slideshow end here*/
 @media (min-width:800px) {
 
   .navigation {
-        flex-flow: row wrap;
-        justify-content: flex-end;
-        display: flex;
-        margin: 1em;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 1em;
       }
-
-  .navigation a {
-      border: none;
-  }
 
   .menu-trigger {
         display: none;
@@ -549,11 +499,6 @@ slideshow end here*/
     }
 
 
-article {
-  width: 70%;
-  float: left;
-}
-
   .card-container {
     flex-flow: row;
     Flex-wrap: wrap;
@@ -562,12 +507,6 @@ article {
   .card {
     width: 35%;
   }
-
-    .navigation2{
-      float:right
-      width:auto;
-      height:auto;
-    }
 
     #footer{
       clear:both;
@@ -579,14 +518,10 @@ article {
 
 .navigation {
         flex-flow: row wrap;
-        justify-content: flex-end;
+        justify-content: space-around;
         display: flex;
         margin: 1em;
       }
-
-  .navigation a {
-      border: none;
-  }
 
   .menu-trigger {
         display: none;
@@ -621,19 +556,12 @@ article {
 
 
   article {
-    width: 70%;
-    float: left;
-    padding-left: 150px;
+    width: 100%;
   }
 
   .card {
     width: 30%;
   }
-
-    .navigation2{
-      width:30%;
-      float:right;
-    }
 
     #footer{
       clear:both;
