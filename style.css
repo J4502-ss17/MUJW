@@ -104,6 +104,13 @@ h2{
   text-decoration: none;
 }
 
+.workcontainer a {
+  text-decoration: none;
+  color: #025C7A;
+  font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+}
 
 .card-container {
     display: flex;
