@@ -99,6 +99,15 @@ h2{
   margin-left: 15px;
 }
 
+.storycat a{
+  color: #025C7A;
+  text-decoration: none;
+}
+
+.storycat p{
+  margin-left: 15px;
+}
+
 .card-container {
     display: flex;
     flex-flow: column;
@@ -513,6 +522,8 @@ slideshow end here*/
   .card {
     width: 35%;
   }
+
+
 
     #footer{
       clear:both;
