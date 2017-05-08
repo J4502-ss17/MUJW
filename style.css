@@ -106,10 +106,15 @@ h2{
 
 .workcontainer a {
   text-decoration: none;
+  text-align:center;
   color: #025C7A;
   font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: normal;
+}
+
+.workcontainer a:hover {
+  color: #F1B82D;
 }
 
 .card-container {
@@ -281,25 +286,6 @@ img{
   margin-bottom: 1em;
 }
 
-table {
-    width: 100%;
-}
-
-td {
-    height: 50px;
-    text-align: center;
-}
-
-table, td, tr {
-   border: 1px solid black;
-   color:#000;
-   background-color: white;
-   font-weight: bold;
-   text-decoration: none;
-   text-align: center;
-   text-decoration: inherit;
-   font-family: 'Libre Franklin', sans-serif;
-   }
 
 
 #storycat a:link, #storycat a:visited{
