@@ -601,6 +601,7 @@ slideshow end here*/
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    max-width: 900px;
 
 }
 
