@@ -264,7 +264,7 @@ p {
     font-size: 1em;
     margin-bottom: 0.8em;
     text-align: left;
-    max-width: 900px;
+    max-width: 900px;;
     margin-left: 50px;
 }
 
@@ -311,8 +311,9 @@ font-family: 'Libre Franklin', sans-serif;
   max-width: 100%;
 }
 
-.footer p {
-  margin-left: 70em;
+.footer p{
+  text-align: center;
+  max-width: 100%;
 }
 
 #nav{
