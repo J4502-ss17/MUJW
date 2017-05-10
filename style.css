@@ -62,7 +62,7 @@ body {
 #bar {
     display: flex;
     align-items: baseline;
-    height:120px;
+    height:160px;
     border-bottom: 1px solid #ccc;
 }
 
@@ -492,6 +492,14 @@ slideshow end here*/
 
 /*mediaquery here*/
 @media (min-width:800px) {
+
+  #bar {
+      display: flex;
+      align-items: baseline;
+      height:120px;
+      border-bottom: 1px solid #ccc;
+  }
+
 
   .navigation {
     display: flex;
