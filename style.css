@@ -282,6 +282,14 @@ h5{
   font-size: 1.5em;
 }
 
+h6{
+  font-family: "Libre Franklin", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  text-align: left;
+  margin-left: 50px;
+}
+
 img{
   margin-bottom: 1em;
 }
